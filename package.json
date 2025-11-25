@@ -17,16 +17,15 @@
   "author": "MiniMax Agent",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "sqlite3": "^5.1.7",
-    "ws": "^8.16.0",
-    "uuid": "^9.0.1",
-    "helmet": "^7.1.0",
+    "express": "^4.18.2",
     "express-rate-limit": "^7.1.5",
-        "selfsigned": "^4.0.0",
-
+    "helmet": "^7.1.0",
+    "selfsigned": "^4.0.0",
+    "sqlite3": "^5.1.7",
+    "uuid": "^9.0.1",
+    "ws": "^8.16.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
