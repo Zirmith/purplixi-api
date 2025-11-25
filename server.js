@@ -36,7 +36,7 @@ const PlayerDatabase = require('./database');
 const db = new PlayerDatabase();
 
 // Config
-const USE_HTTPS = (process.env.USE_HTTPS || 'false').toLowerCase() === 'true';
+const USE_HTTPS = true || (process.env.USE_HTTPS || 'false').toLowerCase() === 'true';
 const HOST = process.env.HOST || '0.0.0.0';
 const HTTP_PORT = parseInt(process.env.PORT || '3000', 10);
 const HTTPS_PORT = parseInt(process.env.HTTPS_PORT || '3443', 10);
